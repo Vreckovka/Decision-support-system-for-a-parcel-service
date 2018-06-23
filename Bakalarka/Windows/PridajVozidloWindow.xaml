@@ -1,0 +1,70 @@
+﻿<Window x:Class="Bakalarka.Windows.PridajVozidloWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bakalarka"
+        mc:Ignorable="d"
+        Title="PridajVozidloWindow" SizeToContent="Height" Width="300" Style="{DynamicResource WindowStyle}" WindowStyle="None" AllowsTransparency="True" Foreground="WhiteSmoke" StateChanged="Window_StateChanged">
+    <WindowChrome.WindowChrome >
+        <WindowChrome ResizeBorderThickness="0" CaptionHeight="40"/>
+    </WindowChrome.WindowChrome>
+
+    <Window.Resources>
+        <Style TargetType="DatePickerTextBox" BasedOn="{StaticResource DatePickerTextBoxStyle}" />
+        <Style TargetType="TextBox" BasedOn="{StaticResource TextBoxStyle}" />
+    </Window.Resources>
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Stretch" Width="Auto" Margin="5" >
+            <StackPanel.Resources>
+                <Style TargetType="StackPanel">
+                    <Style.Resources>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Margin" Value="5"></Setter>
+                            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                        </Style>
+                    </Style.Resources>
+                </Style>
+            </StackPanel.Resources>
+
+            <TextBlock Text="Značka"></TextBlock>
+            <TextBox x:Name="znacka"></TextBox>
+
+            <TextBlock Text="Typ"></TextBlock>
+            <TextBox x:Name="typ"></TextBox>
+
+            <TextBlock Text="SPŽ"></TextBlock>
+            <TextBox x:Name="spz"></TextBox>
+            
+            <TextBlock Text="Výška kufru"></TextBlock>
+            <TextBox x:Name="vyskaKuf"></TextBox>
+
+            <TextBlock Text="Širka kufru"></TextBlock>
+            <TextBox x:Name="sirkaKuf"></TextBox>
+
+            <TextBlock Text="Dĺžka kufru"></TextBlock>
+            <TextBox x:Name="dlzkaKuf"></TextBox>
+
+            <TextBlock Text="Nosnosť"></TextBlock>
+            <TextBox x:Name="nosnosť"></TextBox>
+
+            <TextBlock Text="Najazdené Km"></TextBlock>
+            <TextBox x:Name="najazdeneKM"></TextBox>
+
+            <TextBlock Text="Dátum evidencie"></TextBlock>
+            <DatePicker Text="Vyber si dátum" x:Name="datumEvidencie" Style="{DynamicResource DatePickerStyle}"/>
+
+            <TextBlock Text="Dátum emisnej kontroly"></TextBlock>
+            <DatePicker Text="Vyber si dátum" x:Name="datumEmisnej" Style="{DynamicResource DatePickerStyle}"/>
+
+            <TextBlock Text="Dátum STK"></TextBlock>
+            <DatePicker Text="Vyber si dátum" x:Name="datumStk" Style="{DynamicResource DatePickerStyle}"/>
+
+            <Button x:Name="ButtPridajVozidlo" Content="Pridaj Vozidlo" Margin="10,20,10,10" Click="ButtPridajVozidlo_Click" Style="{DynamicResource ButtonStyle}"></Button>
+            
+        </StackPanel>
+
+    </Grid>
+
+</Window>

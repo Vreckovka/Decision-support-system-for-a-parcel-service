@@ -1,0 +1,33 @@
+﻿<Window x:Class="Bakalarka.Mapa.Mapa_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bakalarka.Mapa"
+        mc:Ignorable="d"
+        Title="Mapa"  SizeToContent="WidthAndHeight" Loaded="Window_Loaded" Closing="Window_Closing"  
+        WindowStyle="None" AllowsTransparency="False" Style="{DynamicResource WindowMapaStyle}" BorderThickness="0" 
+        ResizeMode="NoResize" Padding="0" WindowStartupLocation="CenterScreen" >
+
+    <WindowChrome.WindowChrome >
+        <WindowChrome ResizeBorderThickness="10" CaptionHeight="40"/>
+    </WindowChrome.WindowChrome>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        
+        <Frame x:Name="HlavnyFrame" Grid.Row="0" NavigationUIVisibility="Hidden" Width="{Binding Sirka}" Height="{Binding Vyska}"  MinHeight="500" MinWidth="1300" />
+        <ListBox x:Name="ListBoxTrasy" Grid.Row="1" Foreground="GhostWhite"  Margin="20" Height="100" BorderBrush="#FF384B61" BorderThickness="1"  Background="Transparent">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding NazovCesty}" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>

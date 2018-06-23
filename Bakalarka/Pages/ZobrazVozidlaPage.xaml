@@ -1,0 +1,68 @@
+﻿<Page x:Class="Bakalarka.Pages.ZobrazVozidlaPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Bakalarka"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="2265.34"
+      Title="ZobrazVozidlaPage">
+
+    <Page.Resources>
+        <Style TargetType="ScrollBar" BasedOn="{StaticResource ScrollBarStyle}" />
+    </Page.Resources>
+
+    <Grid Width="auto" HorizontalAlignment="Left">
+        <DataGrid x:Name="vsetkyVozidlaGrid" ItemsSource="{Binding }" AutoGenerateColumns="False" 
+                  Style="{StaticResource DataGridStyle}" IsReadOnly="True" ColumnWidth="*" MinColumnWidth="100" >
+
+
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <EventSetter Event="MouseDoubleClick" Handler="Objednavka_Click"/>
+                </Style>
+            </DataGrid.CellStyle>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="SPŽ" Binding="{Binding VOZIDLOID}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Značka" Binding="{Binding ZNACKA}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Typ" Binding="{Binding TYP}"></DataGridTextColumn>
+
+                <DataGridTextColumn Header="Najazdené kilometre" Binding="{Binding NAJAZDENEKM}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Dĺžka kufru (m)" Binding="{Binding DLZKAKUFRU}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Šírka kufru (m)" Binding="{Binding SIRKAKUFRU}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Výška kufru (m)" Binding="{Binding VYSKAKUFRU}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Nosnosť (kg)" Binding="{Binding NOSNOST}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Dátum evidencie" Binding="{Binding DATUMEVIDENCIE,StringFormat='dd/MM/yyyy'}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Dátum Stk" Binding="{Binding DATUMSTK,StringFormat='dd/MM/yyyy'}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Dátum emisnej kontroly" Binding="{Binding DATUMEMISNEJ,StringFormat='dd/MM/yyyy'}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Dátum vyradenia" Binding="{Binding DATUMVYRADENIA,StringFormat='dd/MM/yyyy'}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Aktívne" Binding="{Binding AKTIVNE}">
+
+                    <DataGridTextColumn.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="Background" Value="#66FF0000"/>
+                            <Style.Triggers>
+                                <MultiDataTrigger>
+                                    <MultiDataTrigger.Conditions>
+                                        <Condition Binding="{Binding Path=AKTIVNE}" Value="ÁNO"></Condition>
+                                    </MultiDataTrigger.Conditions>
+                                    <Setter Property="Background" Value="#66207820"/>
+                                </MultiDataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+
+                <DataGridTemplateColumn Width="auto" >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="ButtonDelete_Click" Content="X" Style="{StaticResource DeleteButtonStyle}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

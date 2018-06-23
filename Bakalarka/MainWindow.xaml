@@ -1,0 +1,254 @@
+﻿<Window x:Class="Bakalarka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bakalarka"
+        mc:Ignorable="d"
+        Title="HlavneOkno" x:Name="HlavneOkno" MinWidth="1000" MinHeight="520"  Height="320" Width="1000" Closing="Window_Closing" Style="{DynamicResource WindowStyle}" WindowStyle="None" ResizeMode="CanResize"
+        AllowsTransparency="True" SizeChanged="Window_SizeChanged" StateChanged="HlavneOkno_StateChanged" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+
+        <Style TargetType="ScrollBar" BasedOn="{StaticResource ScrollBarStyle}" />
+        <ControlTemplate x:Key="MenuItemControlTemplate1" TargetType="{x:Type MenuItem}">
+            <Border x:Name="templateRoot" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                <Grid VerticalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <ContentPresenter x:Name="Icon" Content="{TemplateBinding Icon}" ContentSource="Icon" HorizontalAlignment="Center" Height="16" Margin="3" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="Center" Width="16"/>
+                    <Path x:Name="GlyphPanel" Data="F1M10,1.2L4.7,9.1 4.5,9.1 0,5.2 1.3,3.5 4.3,6.1 8.3,0 10,1.2z" Fill="{TemplateBinding Foreground}" FlowDirection="LeftToRight" Margin="3" Visibility="Collapsed" VerticalAlignment="Center"/>
+                    <ContentPresenter ContentTemplate="{TemplateBinding HeaderTemplate}" Content="{TemplateBinding Header}" Grid.Column="1" ContentStringFormat="{TemplateBinding HeaderStringFormat}" ContentSource="Header" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                    <Popup x:Name="PART_Popup" AllowsTransparency="True" Focusable="False" IsOpen="{Binding IsSubmenuOpen, RelativeSource={RelativeSource TemplatedParent}}" PopupAnimation="{DynamicResource {x:Static SystemParameters.MenuPopupAnimationKey}}" Placement="Bottom">
+                        <Border x:Name="SubMenuBorder"  BorderBrush="#FF729FB4" BorderThickness="1" Background="#D80D1721" Padding="2" >
+                            <ScrollViewer  x:Name="SubMenuScrollViewer" Style="{DynamicResource {ComponentResourceKey ResourceId=MenuScrollViewer, TypeInTargetAssembly={x:Type FrameworkElement}}}">
+                                <Grid RenderOptions.ClearTypeHint="Enabled" >
+                                    <Canvas HorizontalAlignment="Left" Height="0" VerticalAlignment="Top" Width="0">
+                                        <Rectangle x:Name="OpaqueRect" Fill="{Binding Background, ElementName=SubMenuBorder}" Height="{Binding ActualHeight, ElementName=SubMenuBorder}" Width="{Binding ActualWidth, ElementName=SubMenuBorder}"/>
+                                    </Canvas>
+                                    <Rectangle Fill="#FFD7D7D7" HorizontalAlignment="Left" Margin="29,2,0,2" Width="1"/>
+                                    <ItemsPresenter x:Name="ItemsPresenter" KeyboardNavigation.DirectionalNavigation="Cycle" Grid.IsSharedSizeScope="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" KeyboardNavigation.TabNavigation="Cycle"/>
+                                </Grid>
+                            </ScrollViewer>
+                        </Border>
+                    </Popup>
+                </Grid>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsSuspendingPopupAnimation" Value="True">
+                    <Setter Property="PopupAnimation" TargetName="PART_Popup" Value="None"/>
+                </Trigger>
+                <Trigger Property="Icon" Value="{x:Null}">
+                    <Setter Property="Visibility" TargetName="Icon" Value="Collapsed"/>
+                </Trigger>
+                <Trigger Property="IsChecked" Value="True">
+                    <Setter Property="Visibility" TargetName="GlyphPanel" Value="Visible"/>
+                    <Setter Property="Visibility" TargetName="Icon" Value="Collapsed"/>
+                </Trigger>
+                <Trigger Property="IsHighlighted" Value="True">
+                    <Setter Property="Background" TargetName="templateRoot" Value="#3D26A0DA"/>
+                    <Setter Property="BorderBrush" TargetName="templateRoot" Value="#FF26A0DA"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="TextElement.Foreground" TargetName="templateRoot" Value="#FF56FFF0"/>
+                    <Setter Property="Fill" TargetName="GlyphPanel" Value="#FF707070"/>
+                </Trigger>
+                <Trigger Property="CanContentScroll" SourceName="SubMenuScrollViewer" Value="False">
+                    <Setter Property="Canvas.Top" TargetName="OpaqueRect" Value="{Binding VerticalOffset, ElementName=SubMenuScrollViewer}"/>
+                    <Setter Property="Canvas.Left" TargetName="OpaqueRect" Value="{Binding HorizontalOffset, ElementName=SubMenuScrollViewer}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="MenuItemControlTemplate2" TargetType="{x:Type MenuItem}">
+            <Border x:Name="templateRoot">
+                <Grid VerticalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Path Grid.Column="1" Width="10" Height="10" Stretch="Fill" Fill="#CCA6B2B8" Data="F1 M 189.88,318.612L 189.808,318.682L 189.672,318.546L 173.536,302.41L 157.659,302.41L 175.968,320.722L 181.732,326.486L 181.868,326.622L 176.178,332.316L 157.866,350.626L 173.744,350.626L 189.88,334.491L 197.819,326.551L 189.88,318.612 Z "/>
+
+                    <ContentPresenter Grid.Column="0" ContentTemplate="{TemplateBinding HeaderTemplate}" Content="{TemplateBinding Header}" ContentStringFormat="{TemplateBinding HeaderStringFormat}" ContentSource="Header"  RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" Margin="35,2,50,2"/>
+
+                    <Popup x:Name="PART_Popup" AllowsTransparency="True" Focusable="False" IsOpen="{Binding IsSubmenuOpen, RelativeSource={RelativeSource TemplatedParent}}" PopupAnimation="{DynamicResource {x:Static SystemParameters.MenuPopupAnimationKey}}" Placement="Right">
+                        <Border x:Name="SubMenuBorder" BorderBrush="#FF729FB4" BorderThickness="1" Background="#D80D1721" Padding="2">
+                            <ScrollViewer x:Name="SubMenuScrollViewer" Style="{DynamicResource {ComponentResourceKey ResourceId=MenuScrollViewer, TypeInTargetAssembly={x:Type FrameworkElement}}}">
+                                <Grid RenderOptions.ClearTypeHint="Enabled">
+                                    <Canvas HorizontalAlignment="Left" Height="0" VerticalAlignment="Top" Width="0">
+                                        <Rectangle x:Name="OpaqueRect" Fill="{Binding Background, ElementName=SubMenuBorder}" Height="{Binding ActualHeight, ElementName=SubMenuBorder}" Width="{Binding ActualWidth, ElementName=SubMenuBorder}"/>
+                                    </Canvas>
+                                    <Rectangle Fill="#FFD7D7D7" HorizontalAlignment="Left" Margin="29,2,0,2" Width="1"/>
+                                    <ItemsPresenter x:Name="ItemsPresenter" KeyboardNavigation.DirectionalNavigation="Cycle" Grid.IsSharedSizeScope="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" KeyboardNavigation.TabNavigation="Cycle" />
+                                </Grid>
+                            </ScrollViewer>
+                        </Border>
+                    </Popup>
+                </Grid>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsSuspendingPopupAnimation" Value="True">
+                    <Setter Property="PopupAnimation" TargetName="PART_Popup" Value="None"/>
+                </Trigger>
+
+                <Trigger Property="IsHighlighted" Value="True">
+                    <Setter Property="Background" TargetName="templateRoot" Value="#3D26A0DA"/>
+                    <Setter Property="BorderBrush" TargetName="templateRoot" Value="#FF26A0DA"/>
+                    <Setter Property="BorderThickness" TargetName="templateRoot" Value="1"></Setter>
+                    <Setter Property="Margin" TargetName="templateRoot" Value="-1,-1,-1,-1"></Setter>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="TextElement.Foreground" TargetName="templateRoot" Value="#FF56FFF0"/>
+                </Trigger>
+                <Trigger Property="CanContentScroll" SourceName="SubMenuScrollViewer" Value="False">
+                    <Setter Property="Canvas.Top" TargetName="OpaqueRect" Value="{Binding VerticalOffset, ElementName=SubMenuScrollViewer}"/>
+                    <Setter Property="Canvas.Left" TargetName="OpaqueRect" Value="{Binding HorizontalOffset, ElementName=SubMenuScrollViewer}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+
+
+    </Window.Resources>
+
+    <WindowChrome.WindowChrome >
+        <WindowChrome ResizeBorderThickness="15" CaptionHeight="40"/>
+    </WindowChrome.WindowChrome>
+
+    <Grid>
+        <StackPanel>
+            <Grid Margin="5" Background="{StaticResource tmavaModra}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Menu  Grid.Column="0"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="auto" Background="{x:Null}" Foreground="White" Padding="2">
+                    <MenuItem Header="Vozidlá" Foreground="White" Template="{DynamicResource MenuItemControlTemplate1}" >
+                        <MenuItem Header="Zobraz Vozidlá" Background="{x:Null}" Template="{DynamicResource MenuItemControlTemplate2}">
+                            <MenuItem x:Name="ButtZobrazVsetkyVozidla" Header="Všetky vozidlá" Click="ButtZobrazVsetkyVozidla_Click" ></MenuItem>
+                            <MenuItem x:Name="ButtZobrazNeAktivneVozidla" Header="Neaktívne vozidlá" Click="ButtZobrazNeAktivneVozidla_Click"  ></MenuItem>
+                            <MenuItem x:Name="ButtZobrazAktivneVozidla" Header="Aktívne vozidlá" Click="ButtZobrazAktivneVozidla_Click"  ></MenuItem>
+                        </MenuItem>
+                        <MenuItem x:Name="ButtPridajVozidlo" Header="Pridaj Vozidlo" Click="ButtPridajVozidlo_Click"></MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="Tovary"  Foreground="White" Template="{DynamicResource MenuItemControlTemplate1}">
+                        <MenuItem Header="Zobraz Tovary" Background="{x:Null}" Template="{DynamicResource MenuItemControlTemplate2}">
+                            <MenuItem x:Name="ButtZobrazVsetkyTovary" Header="Všetky tovary" Click="ButtZobrazVsetkyTovary_Click"></MenuItem>
+                            <MenuItem x:Name="ButtZobrazPrichadzajuceTovary" Header="Prichadzajúce tovary" Click="ButtZobrazPrichadzajuceTovary_Click"></MenuItem>
+                            <MenuItem x:Name="ButtZobrazTovaryNaSklade" Header="Tovary na sklade" Click="ButtZobrazTovaryNaSklade_Click" ></MenuItem>
+                            <MenuItem x:Name="ButtZobrazDoruceneTovary" Header="Doručené tovary" Click="ButtZobrazDoruceneTovary_Click" ></MenuItem>
+                        </MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="Objednávky" Foreground="White" Template="{DynamicResource MenuItemControlTemplate1}">
+                        <MenuItem Header="Zobraz objednávky" Background="{x:Null}" Template="{DynamicResource MenuItemControlTemplate2}" >
+                            <MenuItem x:Name="ButtZobraVsetky" Header="Všetky objednávky" Click="ButtZobraVsetky_Click" ></MenuItem>
+                            <MenuItem x:Name="ButtZobrazPrichadzajuceObjednavky" Header="Prichadzajúce objednávky" Click="ButtZobrazPrichadzajuceObjednavky_Click"></MenuItem>
+                            <MenuItem x:Name="ButtZobrazVybavene" Header="Vybavené objednávky" Click="ButtZobrazVybavene_Click" />
+                            <MenuItem x:Name="ButtZobrazCiastocneVybavene" Header="Čiastočne vybavené objednávky" Click="ButtZobrazCiastocneVybavene_Click" />
+                            <MenuItem x:Name="ButtZobrazNevybavene" Header="Nevybavené objednávky" Click="ButtZobrazNevybavene_Click" />
+                        </MenuItem>
+                        <MenuItem x:Name="ButtPridajObjednavku" Header="Pridaj objednávku" Click="ButtPridajObjednavku_Click"></MenuItem>
+                    </MenuItem>
+                    <MenuItem Header="Dodávatelia" Foreground="White" Template="{DynamicResource MenuItemControlTemplate1}">
+                        <MenuItem x:Name="ButtZobrazDodavatelov" Header="Zobraz dodávateľov" Click="ButtZobrazDodavatelov_Click"></MenuItem>
+                        <MenuItem x:Name="ButtPridajDodavatela" Header="Pridaj dodávateľa" Click="ButtPridajDodavatela_Click"></MenuItem>
+                    </MenuItem>
+                    <MenuItem x:Name="Mapa" Header="Mapa"  Foreground="White" Template="{DynamicResource MenuItemControlTemplate1}">
+                        <MenuItem x:Name="ButtZobrazMapu" Header="Zobraz Mapu" Click="ButtZobrazMapu_Click" />
+                        <MenuItem Header="Trasa" Click="ButtZobrazMapu_Click" Background="{x:Null}" Template="{DynamicResource MenuItemControlTemplate2}" >
+                            <MenuItem x:Name="ButtVygenerujTrasu" Header="Vygeneruj novú trasu" Click="ButtVygenerujTrasu_Click" />
+                            <MenuItem x:Name="ButtZobrazTrasu" Header="Zobraz trasy" Click="ButtZobrazTrasu_Click" />
+                        </MenuItem>
+                    </MenuItem>
+                </Menu>
+
+                <TextBlock Grid.Column="1" DockPanel.Dock="Bottom" Text="{Binding Databaza.Stav}" Width="auto" Margin="0,2,5,0">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Foreground" Value="#FFE24D4D"/>
+                            <Style.Triggers>
+                                <MultiDataTrigger>
+                                    <MultiDataTrigger.Conditions>
+                                        <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="Pripojený"></Condition>
+                                    </MultiDataTrigger.Conditions>
+                                    <Setter Property="Foreground" Value="#FF29BB29"/>
+                                </MultiDataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+            </Grid>
+
+            <StackPanel Orientation="Horizontal" Height="{Binding Vyska}">
+
+                <Grid Background="Transparent" Margin="5,0,0,0" >
+                    <Border Background="{Binding tmavaModra}">
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="5" Opacity="0.5" ShadowDepth="1"/>
+                        </Border.Effect>
+                    </Border>
+
+                    <Grid Margin="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+
+                        
+                        <TextBlock  Grid.Row="0" Text="Dnes prichadzajúce objednávky" FontSize="15" HorizontalAlignment="Center" Foreground="WhiteSmoke" Margin="5"></TextBlock>
+                        <DataGrid Grid.Row="1" ColumnWidth="245"  Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="DnesPrichadzajuceObjednavkyGrid"
+                                  ItemsSource="{Binding DataTablePom}" AutoGenerateColumns="False" Style="{StaticResource DataGridStyle}" 
+                                   IsReadOnly="True" Height="{Binding}" CanUserResizeColumns="False" CanUserResizeRows="False"
+                                    >
+                            <DataGrid.CellStyle>
+                                <Style TargetType="DataGridCell">
+                                    <EventSetter Event="MouseDoubleClick" Handler="Objednavka_Click"/>
+                                </Style>
+                            </DataGrid.CellStyle>
+
+                            <DataGrid.Columns>
+                                <DataGridTextColumn  Header="Číslo objednávky" Binding="{Binding OBJEDNAVKAID}">
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style TargetType="DataGridCell">
+                                            <Setter Property="Background" Value="#CC9C2727"/>
+                                            <EventSetter Event="MouseDoubleClick" Handler="Objednavka_Click"/>
+                                            <Style.Triggers>
+                                                <MultiDataTrigger>
+                                                    <MultiDataTrigger.Conditions>
+                                                        <Condition Binding="{Binding Path=VYBAVENA}" Value="C"></Condition>
+                                                    </MultiDataTrigger.Conditions>
+                                                    <Setter Property="Background" Value="#CC9E9E00"/>
+                                                </MultiDataTrigger>
+                                                <MultiDataTrigger>
+                                                    <MultiDataTrigger.Conditions>
+                                                        <Condition Binding="{Binding Path=VYBAVENA}" Value="V"></Condition>
+                                                    </MultiDataTrigger.Conditions>
+                                                    <Setter Property="Background" Value="#88007800"/>
+                                                </MultiDataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </DataGridTextColumn.CellStyle>
+                                </DataGridTextColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </Grid>
+                
+                <Grid Margin="5,0,10,0">
+                    <Border Height="auto" Background="{StaticResource tmavaModra}">
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="5" Opacity="0.5" ShadowDepth="1"/>
+                        </Border.Effect>
+                    </Border>
+                    <Frame x:Name="HlavnyFrame"  NavigationUIVisibility="Hidden" Width="{Binding Sirka}" Height="{Binding Vyska}"/>
+                </Grid>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

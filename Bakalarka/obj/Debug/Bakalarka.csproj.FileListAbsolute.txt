@@ -1,0 +1,500 @@
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\bin\Debug\Bakalarka.exe.config
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\bin\Debug\Bakalarka.exe
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\bin\Debug\Bakalarka.pdb
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csprojResolveAssemblyReference.cache
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\App.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.cache
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.lref
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Bakalarka.g.resources
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Bakalarka.Properties.Resources.resources
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csproj.GenerateResource.Cache
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csproj.CoreCompileInputs.cache
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Bakalarka.exe
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Bakalarka.pdb
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\MainWindow.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\MainWindow.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Windows\PridajTovarWindows.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\bin\Debug\Json.dll
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\bin\Debug\Json.pdb
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Windows\PridajTovarWindows.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Windows\PridajObjednavku.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Windows\PridajObjednavku.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\App.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Styly.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Styly.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Windows\TovaryVObjednavke.g.cs
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\Windows\TovaryVObjednavke.baml
+C:\Users\Roman Pecho\source\repos\Bakalarka\Bakalarka\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\Bakalarka.exe.config
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\Bakalarka.exe
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\Bakalarka.pdb
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\Json.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\Json.pdb
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csprojResolveAssemblyReference.cache
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\MainWindow.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Styly.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajObjednavku.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajTovarWindows.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\App.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.cache
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.lref
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\App.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\MainWindow.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Styly.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajObjednavku.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajTovarWindows.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.g.resources
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.Properties.Resources.resources
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csproj.GenerateResource.Cache
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csproj.CoreCompileInputs.cache
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.exe
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.pdb
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\Bakalarka.exe.config
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\Bakalarka.exe
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\Bakalarka.pdb
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\EntityFramework.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\GMap.NET.Core.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\EntityFramework.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csprojResolveAssemblyReference.cache
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\MainWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Styly.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajObjednavku.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajTovarWindows.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\App.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.cache
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.lref
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\App.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\MainWindow.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Styly.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajObjednavku.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajTovarWindows.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.g.resources
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.Properties.Resources.resources
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csproj.GenerateResource.Cache
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csproj.CoreCompileInputs.cache
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.exe
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.pdb
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\Google.Maps.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csproj.CopyComplete
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\EntityFramework.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\GAF.461.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\GMap.NET.Core.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\Google.Maps.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\EntityFramework.xml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.xml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Mapa\Mapa.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Mapa\Mapa.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.baml
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.g.cs
+C:\Users\pecho4\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.baml
+E:\Bakalarka\Bakalarka\bin\Debug\Bakalarka.exe.config
+E:\Bakalarka\Bakalarka\bin\Debug\Bakalarka.exe
+E:\Bakalarka\Bakalarka\bin\Debug\Bakalarka.pdb
+E:\Bakalarka\Bakalarka\bin\Debug\EntityFramework.dll
+E:\Bakalarka\Bakalarka\bin\Debug\EntityFramework.SqlServer.dll
+E:\Bakalarka\Bakalarka\bin\Debug\GAF.461.dll
+E:\Bakalarka\Bakalarka\bin\Debug\GMap.NET.Core.dll
+E:\Bakalarka\Bakalarka\bin\Debug\GMap.NET.WindowsForms.dll
+E:\Bakalarka\Bakalarka\bin\Debug\GMap.NET.WindowsPresentation.dll
+E:\Bakalarka\Bakalarka\bin\Debug\Google.Maps.dll
+E:\Bakalarka\Bakalarka\bin\Debug\Json.dll
+E:\Bakalarka\Bakalarka\bin\Debug\Microsoft.Windows.Shell.dll
+E:\Bakalarka\Bakalarka\bin\Debug\Newtonsoft.Json.dll
+E:\Bakalarka\Bakalarka\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.dll
+E:\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Bakalarka\Bakalarka\bin\Debug\EntityFramework.xml
+E:\Bakalarka\Bakalarka\bin\Debug\EntityFramework.SqlServer.xml
+E:\Bakalarka\Bakalarka\bin\Debug\Json.pdb
+E:\Bakalarka\Bakalarka\bin\Debug\Microsoft.Windows.Shell.pdb
+E:\Bakalarka\Bakalarka\bin\Debug\Newtonsoft.Json.xml
+E:\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.xml
+E:\Bakalarka\Bakalarka\bin\Debug\System.Data.SQLite.dll.config
+E:\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csprojResolveAssemblyReference.cache
+E:\Bakalarka\Bakalarka\obj\Debug\MainWindow.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Mapa\Mapa.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Styly.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\PridajObjednavku.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\PridajTovarWindows.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\App.g.cs
+E:\Bakalarka\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.cache
+E:\Bakalarka\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.lref
+E:\Bakalarka\Bakalarka\obj\Debug\App.baml
+E:\Bakalarka\Bakalarka\obj\Debug\MainWindow.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Mapa\Mapa.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Styly.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\PridajObjednavku.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\PridajTovarWindows.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.baml
+E:\Bakalarka\Bakalarka\obj\Debug\Bakalarka.g.resources
+E:\Bakalarka\Bakalarka\obj\Debug\Bakalarka.Properties.Resources.resources
+E:\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csproj.GenerateResource.Cache
+E:\Bakalarka\Bakalarka\obj\Debug\Bakalarka.csproj.CoreCompileInputs.cache
+E:\Bakalarka\Bakalarka\obj\Debug\Bakalarka.exe
+E:\Bakalarka\Bakalarka\obj\Debug\Bakalarka.pdb
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\WPFTextBoxAutoComplete.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\WPFTextBoxAutoComplete.pdb
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\DotNetKit.Wpf.AutoCompleteComboBox.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\Upraveny_MessageBox.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\Upraveny_MessageBox.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\LoadingIndicators.WPF.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\LoadingIndicators.WPF.pdb
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\LoadingWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\LoadingWindow.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Mapa\Pages\LoadingPage.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Mapa\Pages\MapaPage.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Mapa\Pages\LoadingPage.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Mapa\Pages\MapaPage.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.AppContext.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Console.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.IO.Compression.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Net.Http.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Net.Sockets.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\GoogleMaps.LocationServices.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\BingMapsRESTToolkit.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\BingMapsRESTToolkit.pdb
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\bin\Debug\BingMapsRESTToolkit.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\TrasaWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Windows\TrasaWindow.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Mapa\Mapa_Window.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka\Bakalarka\obj\Debug\Mapa\Mapa_Window.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\Bakalarka.exe.config
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\Bakalarka.exe
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\Bakalarka.pdb
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\BingMapsRESTToolkit.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\EntityFramework.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\GMap.NET.Core.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\Google.Maps.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\LoadingIndicators.WPF.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\System.Data.SQLite.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\System.IO.Compression.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\System.Net.Http.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\BingMapsRESTToolkit.pdb
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\BingMapsRESTToolkit.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\EntityFramework.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\LoadingIndicators.WPF.pdb
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\System.Data.SQLite.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Bakalarka.csprojResolveAssemblyReference.cache
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\LoadingWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\MainWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Mapa\Mapa_Window.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Mapa\Pages\LoadingPage.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Mapa\Pages\MapaPage.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Styly.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\PridajObjednavku.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\PridajTovarWindows.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\TrasaWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\Upraveny_MessageBox.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\App.g.cs
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.cache
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.lref
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\App.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\LoadingWindow.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\MainWindow.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Mapa\Mapa_Window.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Mapa\Pages\LoadingPage.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Mapa\Pages\MapaPage.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Styly.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\PridajObjednavku.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\PridajTovarWindows.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\TrasaWindow.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Windows\Upraveny_MessageBox.baml
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Bakalarka.g.resources
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Bakalarka.Properties.Resources.resources
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Bakalarka.csproj.GenerateResource.cache
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Bakalarka.csproj.CoreCompileInputs.cache
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Bakalarka.csproj.CopyComplete
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Bakalarka.exe
+C:\Users\Roman Pecho\Desktop\Bakalarka0\Bakalarka\obj\Debug\Bakalarka.pdb
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Bakalarka.exe.config
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Bakalarka.exe
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Bakalarka.pdb
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\BingMapsRESTToolkit.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\EntityFramework.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\EntityFramework.SqlServer.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\GMap.NET.Core.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\GMap.NET.WindowsForms.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\GMap.NET.WindowsPresentation.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Google.Maps.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\LoadingIndicators.WPF.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Microsoft.Windows.Shell.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Newtonsoft.Json.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Oracle.ManagedDataAccess.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Data.SQLite.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Data.SQLite.EF6.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Data.SQLite.Linq.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Net.Http.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Microsoft.Win32.Primitives.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.IO.Compression.dll
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\BingMapsRESTToolkit.pdb
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\BingMapsRESTToolkit.xml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\EntityFramework.xml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\EntityFramework.SqlServer.xml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\LoadingIndicators.WPF.pdb
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Microsoft.Windows.Shell.pdb
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Newtonsoft.Json.xml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Data.SQLite.xml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Data.SQLite.dll.config
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.csprojResolveAssemblyReference.cache
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\LoadingWindow.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\MainWindow.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Mapa_Window.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Pages\LoadingPage.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Pages\MapaPage.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Styly.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajObjednavku.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajTovarWindows.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\TrasaWindow.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\Upraveny_MessageBox.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\App.g.cs
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.cache
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.lref
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\App.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\LoadingWindow.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\MainWindow.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Mapa_Window.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Pages\LoadingPage.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Pages\MapaPage.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Styly.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajObjednavku.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajTovarWindows.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\TrasaWindow.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\Upraveny_MessageBox.baml
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.g.resources
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.Properties.Resources.resources
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.csproj.GenerateResource.cache
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.csproj.CoreCompileInputs.cache
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.csproj.CopyComplete
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.exe
+H:\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.pdb
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Bakalarka.exe.config
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Bakalarka.exe
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Bakalarka.pdb
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\BingMapsRESTToolkit.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\EntityFramework.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\GMap.NET.Core.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Google.Maps.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\LoadingIndicators.WPF.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Data.SQLite.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Net.Http.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.IO.Compression.dll
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\BingMapsRESTToolkit.pdb
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\BingMapsRESTToolkit.xml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\EntityFramework.xml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\LoadingIndicators.WPF.pdb
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Data.SQLite.xml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.csprojResolveAssemblyReference.cache
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\LoadingWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\MainWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Mapa_Window.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Pages\LoadingPage.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Pages\MapaPage.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Styly.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajObjednavku.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajTovarWindows.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\TrasaWindow.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\Upraveny_MessageBox.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\App.g.cs
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.cache
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka_MarkupCompile.lref
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\App.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\LoadingWindow.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\MainWindow.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Mapa_Window.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Pages\LoadingPage.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Mapa\Pages\MapaPage.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazDodavatelov.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazObjednavky.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazTovaryPage.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Styly.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\CestaNaZobrazenie.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajDodavatelaWindow.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajObjednavku.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajTovarWindows.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\PridajVozidloWindow.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Pages\ZobrazVozidlaPage.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\TovaryNaZobrazenie.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\TrasaWindow.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Windows\Upraveny_MessageBox.baml
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.g.resources
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.Properties.Resources.resources
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.csproj.GenerateResource.cache
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.csproj.CoreCompileInputs.cache
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.csproj.CopyComplete
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.exe
+C:\Users\Roman Pecho\Desktop\Systém pre podporu rozhodovania v prepravnej spoločnosti\Projekt\Bakalarka\obj\Debug\Bakalarka.pdb

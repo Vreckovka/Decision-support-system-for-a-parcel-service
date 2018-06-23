@@ -1,0 +1,42 @@
+﻿<Window x:Class="Bakalarka.Windows.Upraveny_MessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bakalarka.Windows"
+        mc:Ignorable="d"
+        Title="Upraveny_MessageBox" SizeToContent="WidthAndHeight" Style="{DynamicResource WindowStyle}" AllowsTransparency="True"  WindowStyle="None"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" StateChanged="Window_StateChanged" >
+   
+    <WindowChrome.WindowChrome >
+        <WindowChrome ResizeBorderThickness="0" CaptionHeight="40"/>
+    </WindowChrome.WindowChrome>
+
+    <Grid>
+        <Border BorderThickness="0" CornerRadius="0">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Row="0" Grid.ColumnSpan="2"  MinHeight="40" >
+                    <TextBlock Padding="20" Name="MessageTitle" FontWeight="Bold" LineHeight="5" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="GhostWhite"/>
+                </Grid>
+                <TextBlock Background="#057FD0FF" Padding="50" VerticalAlignment="Center" TextWrapping="Wrap" Name="txtMsg" Grid.Row="1" Grid.Column="1" FontSize="20"  />
+                <Grid Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0" >
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" >
+                        <Button Name="btnOk" Content="OK" Style="{StaticResource ButtonStyle}" Margin="10"  Click="Button_Click" FontSize="18" VerticalAlignment="Center"  HorizontalAlignment="Stretch"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+                        <Button Name="btnYes" Content="Áno" Margin="10" Click="Button_Click" FontSize="18" Style="{StaticResource ButtonStyle}"  VerticalAlignment="Center" HorizontalAlignment="Stretch"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                        <Button Name="btnNo" Content="Nie" Margin="10" Click="Button_Click" FontSize="18" Style="{StaticResource ButtonStyle}" VerticalAlignment="Center" HorizontalAlignment="Stretch"   VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+                        <Button Name="btnCancel" Margin="10" Content="Zrušiť"  Click="Button_Click" Style="{StaticResource ButtonStyle}" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Stretch" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

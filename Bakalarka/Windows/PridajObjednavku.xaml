@@ -1,0 +1,84 @@
+﻿<Window x:Class="Bakalarka.Windows.PridajObjednavku"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bakalarka.Windows"
+        mc:Ignorable="d"
+        Title="PridajObjednavku" SizeToContent="Height" Width="300" Style="{DynamicResource WindowStyle}" WindowStyle="None" AllowsTransparency="True" Foreground="WhiteSmoke" Closed="Window_Closed" StateChanged="Window_StateChanged">
+
+    <WindowChrome.WindowChrome >
+        <WindowChrome ResizeBorderThickness="0" CaptionHeight="40"/>
+    </WindowChrome.WindowChrome>
+
+    <Window.Resources>
+        <Style TargetType="Button" BasedOn="{StaticResource ButtonStyle}" />
+        <Style TargetType="DatePickerTextBox" BasedOn="{StaticResource DatePickerTextBoxStyle}" />
+        <Style TargetType="TextBox" BasedOn="{StaticResource TextBoxStyle}" />
+    </Window.Resources>
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Stretch" Width="Auto" Margin="5" >
+            <StackPanel.Resources>
+                <Style TargetType="StackPanel">
+                    <Style.Resources>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Margin" Value="5"></Setter>
+                            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                        </Style>
+                    </Style.Resources>
+                </Style>
+            </StackPanel.Resources>
+
+            <TextBlock Text="Číslo objednávky"></TextBlock>
+            <TextBox x:Name="cisloObjednavky"></TextBox>
+
+            <TextBlock Text="Dátum Dodania"></TextBlock>
+            <DatePicker Text="Vyber si dátum" x:Name="datumDodania" Style="{DynamicResource DatePickerStyle}" />
+
+
+            <TextBlock Text="Dodávatel"></TextBlock>
+            <ComboBox IsEditable="False" x:Name="dodavatel" ItemsSource="{Binding ZoznamDodavatelov}" SelectionChanged="dodavatel_SelectionChanged" 
+                      Style="{DynamicResource ComboBoxStyle}" SelectedValuePath="DODAVATELID">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <ListBoxItem Content="{Binding NAZOV}" >
+                            <ListBoxItem.ToolTip>
+                                <StackPanel>
+                                    <TextBlock Text= "{Binding Path=NAZOV, StringFormat='Názov: {0}'}"></TextBlock>
+                                    <TextBlock Text= "{Binding Path=DODAVATELID, StringFormat='IČO: {0}'}"></TextBlock>
+                                    <TextBlock Text= "{Binding Path=ADRESA, StringFormat='Adresa: {0}'}"></TextBlock>
+                                </StackPanel>
+                            </ListBoxItem.ToolTip>
+                        </ListBoxItem>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+
+            <StackPanel Background="#111111" Margin="10">
+                <TextBlock Text="Tovary"></TextBlock>
+                <Button x:Name="ButtPridajTovar" Content="Pridaj tovar" Margin="10" Click="ButtPridajTovar_Click"></Button>
+                <ListBox x:Name="tovaryVObjednavkeCombo" ItemsSource="{Binding TovaryVObjednavky}" Background="Transparent" BorderThickness="0.5" Foreground="GhostWhite">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <ListBoxItem Content="{Binding CisloBaliku}">
+                                <ListBoxItem.ToolTip>
+                                    <StackPanel>
+                                        <TextBlock Text= "{Binding Path=DodavatelIco, StringFormat='Dodávatel: {0}'}"></TextBlock>
+                                        <TextBlock Text= "{Binding Path=Prijemca.Meno, StringFormat='Príjemca: {0}'}"></TextBlock>
+                                        <TextBlock Text= "{Binding Path=Sirka, StringFormat='Šírka: {0}'}"></TextBlock>
+                                        <TextBlock Text= "{Binding Path=Vyska, StringFormat='Výška: {0}'}"></TextBlock>
+                                        <TextBlock Text= "{Binding Path=Dlzka, StringFormat='Dĺžka: {0}'}"></TextBlock>
+                                        <TextBlock Text= "{Binding Path=Hmotnost, StringFormat='Hmotnosť: {0}'}"></TextBlock>
+                                        <TextBlock Text= "{Binding Path=PrvaTrieda, StringFormat='Prvá Trieda: {0}'}"></TextBlock>
+                                    </StackPanel>
+                                </ListBoxItem.ToolTip>
+                            </ListBoxItem>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+            <Button x:Name="ButtPridajObjednavku" Content="Pridaj Objednávku" Margin="10" Click="ButtPridajObjednavku_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Window>

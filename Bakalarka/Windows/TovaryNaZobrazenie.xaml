@@ -1,0 +1,130 @@
+﻿<Window x:Class="Bakalarka.Windows.TovaryNaZobrazenie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bakalarka.Windows"
+        mc:Ignorable="d"
+        Title="TovaryVObjednavke" MinHeight="350" MinWidth="1000" Height="350" Width="1000"  Style="{DynamicResource WindowStyle}" AllowsTransparency="True" 
+        WindowStyle="None" SizeChanged="Window_SizeChanged" StateChanged="Window_StateChanged">
+
+
+    <WindowChrome.WindowChrome >
+        <WindowChrome ResizeBorderThickness="15" CaptionHeight="40"/>
+    </WindowChrome.WindowChrome>
+
+    <Window.Resources>
+        <Style TargetType="ScrollBar" BasedOn="{StaticResource ScrollBarStyle}" />
+    </Window.Resources>
+
+    <Grid>
+        <Grid Width="auto" HorizontalAlignment="Left" >
+            <StackPanel>
+                <DataGrid x:Name="vsetkyTovaryGrid" ItemsSource="{Binding}" AutoGenerateColumns="False" Style="{StaticResource DataGridStyle}" IsReadOnly="True"
+                           ColumnWidth="*" MinColumnWidth="50" Width="1000">
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn  Width="auto" Header="Číslo tovaru" Binding="{Binding TOVARID}"></DataGridTextColumn>
+                        <DataGridTextColumn  Width="auto" Header="Plánovaný dátum prijatia na sklad" Binding="{Binding PLANOVANYDATUM,StringFormat='dd/MM/yyyy'}"></DataGridTextColumn>
+                        <DataGridTextColumn  Header="Dátum prijatia na sklad" Binding="{Binding DATUMPRIJATIANASKLAD,StringFormat='dd/MM/yyyy'}"></DataGridTextColumn>
+                        <DataGridTextColumn  Width="auto" Header="Dodávateľ" Binding="{Binding NAZOVDODAVATELA}"></DataGridTextColumn>
+                        <DataGridTextColumn  Width="auto" Header="Príjemca" Binding="{Binding MENOPRIJEMCU}"></DataGridTextColumn>
+
+                        <DataGridTextColumn  Header="Dĺžka" Binding="{Binding DLZKA,StringFormat= 0.00}"></DataGridTextColumn>
+                        <DataGridTextColumn  Header="Šírka" Binding="{Binding SIRKA,StringFormat= 0.00}"></DataGridTextColumn>
+                        <DataGridTextColumn  Header="Výška" Binding="{Binding VYSKA,StringFormat= 0.00}"></DataGridTextColumn>
+                        <DataGridTextColumn  Header="Hmotnosť" Binding="{Binding HMOTNOST,StringFormat= 0.00}"/>
+                        <DataGridTextColumn  Width="auto" Header="Dodacia Adresa" Binding="{Binding ADRESAPRIJEMCU}"/>
+                        <DataGridTextColumn  Header="Vozidlo" Binding="{Binding VOZIDLOID}"></DataGridTextColumn>
+                        <DataGridTextColumn  Header="Dátum doručenia" Binding="{Binding DATUMDORUCENIA,StringFormat='dd/MM/yyyy'}"></DataGridTextColumn>
+
+
+                        <DataGridTextColumn  Header="Prvá trieda" Binding="{Binding PRVATRIEDA}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="DataGridCell">
+                                    <Setter Property="Background" Value="#66FF0000"/>
+                                    <Style.Triggers>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding Path=PRVATRIEDA}" Value="ÁNO"></Condition>
+                                            </MultiDataTrigger.Conditions>
+                                            <Setter Property="Background" Value="#66008000"/>
+                                        </MultiDataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+
+
+                        <DataGridTextColumn  Header="Prijatý" Binding="{Binding PRIJATY}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="DataGridCell">
+                                    <Setter Property="Background" Value="#66FF0000"/>
+                                    <Style.Triggers>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding Path=PRIJATY}" Value="ÁNO"></Condition>
+                                            </MultiDataTrigger.Conditions>
+                                            <Setter Property="Background" Value="#66008000"/>
+                                        </MultiDataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTextColumn  Header="Doručený" Binding="{Binding DORUCENY}">
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="DataGridCell">
+                                    <Setter Property="Background" Value="#66FF0000"/>
+                                    <Style.Triggers>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding Path=DORUCENY}" Value="ÁNO"></Condition>
+                                            </MultiDataTrigger.Conditions>
+                                            <Setter Property="Background" Value="#66008000"/>
+                                        </MultiDataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                        </DataGridTextColumn>
+
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="Prijať">
+                                    
+                                </TextBlock>
+                            </DataGridTemplateColumn.Header>
+
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <CheckBox Checked="PrijatCheckBox_Click" Unchecked="CheckBox_Unchecked" >
+                                        <CheckBox.Style>
+                                            <Style TargetType="CheckBox">
+                                                <Style.Triggers>
+
+                                                    <MultiDataTrigger>
+                                                        <MultiDataTrigger.Conditions>
+                                                            <Condition Binding="{Binding Path=PRIJATY}" Value="ÁNO"/>
+                                                        </MultiDataTrigger.Conditions>
+                                                        <Setter Property="Visibility" Value="Hidden"/>
+                                                    </MultiDataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </CheckBox.Style>
+                                    </CheckBox>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <Button x:Name="ButtPotvrdPrijatie"  Margin="25" Style="{StaticResource ButtonStyle}" 
+                        Content="Prijať tovary na sklad" Width="220" Height="30" Click="PotvrdPrijatie_Click" />
+             
+            </StackPanel>
+        </Grid>
+        
+    </Grid> 
+</Window>

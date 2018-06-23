@@ -1,0 +1,43 @@
+﻿<Window x:Class="Bakalarka.Windows.CestaNaZobrazenie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bakalarka.Windows"
+        mc:Ignorable="d"
+        Title="CestaNaZobrazenie" Height="450" Width="800"  Style="{DynamicResource WindowStyle}" AllowsTransparency="True"  WindowStyle="None" Topmost="True" StateChanged="Window_StateChanged" >
+
+    <WindowChrome.WindowChrome >
+        <WindowChrome ResizeBorderThickness="0" CaptionHeight="40"/>
+    </WindowChrome.WindowChrome>
+
+    <Window.Resources>
+        <Style TargetType="ScrollBar" BasedOn="{StaticResource ScrollBarStyle}" />
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid>
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock Text="{Binding NazovCesty}" Grid.Row="0" Grid.Column="1" Margin="5" FontSize="20"/>
+        </Grid>
+        <ListBox  Foreground="WhiteSmoke"  Grid.Row="1" Margin="10" ItemsSource="{Binding ZoznamAdries}" BorderThickness="0" Background="Transparent">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding }"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
